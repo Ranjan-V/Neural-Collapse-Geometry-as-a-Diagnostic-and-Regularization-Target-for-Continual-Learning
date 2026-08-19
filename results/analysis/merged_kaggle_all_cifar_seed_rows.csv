@@ -1,0 +1,12 @@
+source_folder,experiment_name,method,seed,average_accuracy,average_forgetting,backward_transfer,etf_forgetting_corr
+Capstone Outputs 1,kaggle_cifar_full,etf_anchor,42,0.2133999999999999,0.137125,-0.111625,0.4207369745440483
+Capstone Outputs 1,kaggle_cifar_full,ewc,42,0.4638,0.294,-0.294,
+Capstone Outputs 1,kaggle_cifar_full,finetune,42,0.4047,0.405875,-0.405875,
+Capstone Outputs 1,kaggle_cifar_full,lwf,42,0.6692,0.0207499999999999,-0.0188749999999999,
+Capstone Output 3,kaggle_cifar_full,lwf,43,0.6805000000000001,0.0133749999999999,-0.0125,
+Capstone Output 3,kaggle_cifar_full,lwf,44,0.6906000000000001,0.001,-0.000875,
+Capstone Outputs 1,kaggle_etf_sparse,etf_anchor,42,0.4133,0.36150000000000004,-0.36150000000000004,0.5906001504957092
+Capstone Outputs 2,kaggle_lwf_etf,lwf_etf,42,0.6477999999999999,0.03325,-0.0328749999999999,0.8409137258898832
+Capstone Outputs 2,kaggle_lwf_etf_strong,lwf_etf,42,0.6537000000000001,0.03224999999999997,-0.03224999999999997,0.8823226337872799
+Capstone Output 3,kaggle_lwf_etf_strong,lwf_etf,43,0.6642,0.03,-0.03,0.343420777597144
+Capstone Output 3,kaggle_lwf_etf_strong,lwf_etf,44,0.6737,0.029000000000000026,-0.02787500000000001,0.6097290891750367

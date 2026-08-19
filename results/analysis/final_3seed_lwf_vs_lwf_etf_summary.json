@@ -1,0 +1,40 @@
+[
+  {
+    "method_label": "LwF",
+    "experiment_name": "kaggle_cifar_full",
+    "method": "lwf",
+    "seeds": "42 43 44",
+    "average_accuracy_mean": 0.6801,
+    "average_accuracy_std": 0.010705606008068901,
+    "average_forgetting_mean": 0.011708333333333267,
+    "average_forgetting_std": 0.009979927771949669,
+    "backward_transfer_mean": -0.010749999999999968,
+    "backward_transfer_std": 0.00912671216813586,
+    "etf_forgetting_corr_mean": null,
+    "etf_forgetting_corr_std": null,
+    "per_seed_average_accuracy": "0.6692;0.6805;0.6906",
+    "per_seed_average_forgetting": "0.0207;0.0134;0.0010",
+    "per_seed_corr": "",
+    "final_task_acc_mean": "0.6818 0.6638 0.6982 0.6832 0.6735",
+    "final_task_acc_std": "0.0151 0.0259 0.0199 0.0308 0.0184"
+  },
+  {
+    "method_label": "LwF+ETF Strong",
+    "experiment_name": "kaggle_lwf_etf_strong",
+    "method": "lwf_etf",
+    "seeds": "42 43 44",
+    "average_accuracy_mean": 0.6638666666666667,
+    "average_accuracy_std": 0.010004165798972566,
+    "average_forgetting_mean": 0.030416666666666665,
+    "average_forgetting_std": 0.0016645820296198226,
+    "backward_transfer_mean": -0.03004166666666666,
+    "backward_transfer_std": 0.0021877975988041608,
+    "etf_forgetting_corr_mean": 0.6118241668531536,
+    "etf_forgetting_corr_std": 0.26945703676866833,
+    "per_seed_average_accuracy": "0.6537;0.6642;0.6737",
+    "per_seed_average_forgetting": "0.0322;0.0300;0.0290",
+    "per_seed_corr": "0.8823;0.3434;0.6097",
+    "final_task_acc_mean": "0.6490 0.6378 0.6778 0.6837 0.6710",
+    "final_task_acc_std": "0.0109 0.0225 0.0157 0.0173 0.0197"
+  }
+]

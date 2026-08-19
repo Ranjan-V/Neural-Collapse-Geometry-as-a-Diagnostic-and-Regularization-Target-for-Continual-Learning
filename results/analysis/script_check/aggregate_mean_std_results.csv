@@ -1,0 +1,8 @@
+dataset,experiment_name,method,average_accuracy_mean,average_accuracy_std,average_accuracy_count,average_forgetting_mean,average_forgetting_std,average_forgetting_count,backward_transfer_mean,backward_transfer_std,backward_transfer_count,etf_forgetting_corr_mean,etf_forgetting_corr_std,etf_forgetting_corr_count
+cifar100,kaggle_cifar_full,etf_anchor,0.2133999999999999,,1,0.137125,,1,-0.111625,,1,0.4207369745440483,,1
+cifar100,kaggle_cifar_full,ewc,0.4638,,1,0.294,,1,-0.294,,1,,,0
+cifar100,kaggle_cifar_full,finetune,0.4047,,1,0.405875,,1,-0.405875,,1,,,0
+cifar100,kaggle_cifar_full,lwf,0.6801,0.010705606008068913,3,0.011708333333333267,0.009979927771949669,3,-0.010749999999999966,0.009126712168135862,3,,,0
+cifar100,kaggle_etf_sparse,etf_anchor,0.4133,,1,0.3615,,1,-0.3615,,1,0.5906001504957092,,1
+cifar100,kaggle_lwf_etf,lwf_etf,0.6477999999999999,,1,0.03325,,1,-0.0328749999999999,,1,0.8409137258898832,,1
+cifar100,kaggle_lwf_etf_strong,lwf_etf,0.6638666666666667,0.010004165798972552,3,0.030416666666666634,0.0016645820296197912,3,-0.030041666666666633,0.0021877975988041274,3,0.6118241668531536,0.2694570367686684,3

@@ -1,0 +1,13 @@
+\begin{tabular}{lllcccc}
+\hline
+Dataset & Experiment & Method & Avg. Acc. & Forgetting & BWT & ETF--F Corr. \\
+\hline
+cifar100 & kaggle_cifar_full & etf_anchor & 0.2134 & 0.1371 & -0.1116 & 0.4207 \\
+cifar100 & kaggle_cifar_full & ewc & 0.4638 & 0.2940 & -0.2940 & -- \\
+cifar100 & kaggle_cifar_full & finetune & 0.4047 & 0.4059 & -0.4059 & -- \\
+cifar100 & kaggle_cifar_full & lwf & 0.6801 $\pm$ 0.0107 & 0.0117 $\pm$ 0.0100 & -0.0107 $\pm$ 0.0091 & -- \\
+cifar100 & kaggle_etf_sparse & etf_anchor & 0.4133 & 0.3615 & -0.3615 & 0.5906 \\
+cifar100 & kaggle_lwf_etf & lwf_etf & 0.6478 & 0.0333 & -0.0329 & 0.8409 \\
+cifar100 & kaggle_lwf_etf_strong & lwf_etf & 0.6639 $\pm$ 0.0100 & 0.0304 $\pm$ 0.0017 & -0.0300 $\pm$ 0.0022 & 0.6118 $\pm$ 0.2695 \\
+\hline
+\end{tabular}

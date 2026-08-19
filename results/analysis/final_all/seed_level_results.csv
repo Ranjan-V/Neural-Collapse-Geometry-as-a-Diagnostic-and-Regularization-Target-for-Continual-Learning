@@ -1,0 +1,33 @@
+average_accuracy,average_forgetting,backward_transfer,method,seed,dataset,experiment_name,etf_forgetting_corr,source_folder
+0.6032,0.395875,-0.395875,etf_anchor,42,cifar10,kaggle_cifar10_full,0.2628485029416216,Capstone Output CIFAR10
+0.6140999999999999,0.387125,-0.387125,etf_anchor,43,cifar10,kaggle_cifar10_full,0.0640778788745546,Capstone Output CIFAR10
+0.7832,0.216125,-0.216125,etf_anchor,44,cifar10,kaggle_cifar10_full,0.2310490906195747,Capstone Output CIFAR10
+0.632,0.4095,-0.4095,ewc,42,cifar10,kaggle_cifar10_full,,Capstone Output CIFAR10
+0.5489999999999999,0.500875,-0.500875,ewc,43,cifar10,kaggle_cifar10_full,,Capstone Output CIFAR10
+0.7766,0.2309999999999999,-0.2309999999999999,ewc,44,cifar10,kaggle_cifar10_full,,Capstone Output CIFAR10
+0.6433,0.407375,-0.407375,finetune,42,cifar10,kaggle_cifar10_full,,Capstone Output CIFAR10
+0.5544,0.51,-0.51,finetune,43,cifar10,kaggle_cifar10_full,,Capstone Output CIFAR10
+0.7891,0.225125,-0.225125,finetune,44,cifar10,kaggle_cifar10_full,,Capstone Output CIFAR10
+0.958,0.0036249999999999,-0.0036249999999999,lwf,42,cifar10,kaggle_cifar10_full,,Capstone Output CIFAR10
+0.948,0.0016249999999999,-0.0014999999999999,lwf,43,cifar10,kaggle_cifar10_full,,Capstone Output CIFAR10
+0.963,0.0033749999999999,-0.0023749999999999,lwf,44,cifar10,kaggle_cifar10_full,,Capstone Output CIFAR10
+0.9178,0.0471249999999999,-0.0471249999999999,lwf_etf,42,cifar10,kaggle_cifar10_lwf_etf_strong,0.0078255278745046,Capstone Output CIFAR10
+0.9144,0.043,-0.043,lwf_etf,43,cifar10,kaggle_cifar10_lwf_etf_strong,0.3392979049757623,Capstone Output CIFAR10
+0.9083,0.0648749999999999,-0.0643749999999999,lwf_etf,44,cifar10,kaggle_cifar10_lwf_etf_strong,-0.0109578453551805,Capstone Output CIFAR10
+0.2133999999999999,0.137125,-0.111625,etf_anchor,42,cifar100,kaggle_cifar_full,0.4207369745440483,Capstone Outputs 1
+0.4638,0.294,-0.294,ewc,42,cifar100,kaggle_cifar_full,,Capstone Outputs 1
+0.4861000000000001,0.2605,-0.2605,ewc,43,cifar100,kaggle_cifar_full,,Capstone Output CIFAR100 Seed43 Missing Baselines
+0.5018,0.26475,-0.26475,ewc,44,cifar100,kaggle_cifar_full,,Capstone Output CIFAR100 Seed44 Missing Baselines
+0.4047,0.405875,-0.405875,finetune,42,cifar100,kaggle_cifar_full,,Capstone Outputs 1
+0.43,0.378625,-0.378625,finetune,43,cifar100,kaggle_cifar_full,,Capstone Output CIFAR100 Seed43 Missing Baselines
+0.4505,0.372625,-0.372625,finetune,44,cifar100,kaggle_cifar_full,,Capstone Output CIFAR100 Seed44 Missing Baselines
+0.6692,0.0207499999999999,-0.0188749999999999,lwf,42,cifar100,kaggle_cifar_full,,Capstone Outputs 2
+0.6805000000000001,0.0133749999999999,-0.0125,lwf,43,cifar100,kaggle_cifar_full,,Capstone Output 3
+0.6906000000000001,0.001,-0.000875,lwf,44,cifar100,kaggle_cifar_full,,Capstone Output 3
+0.4133,0.3615,-0.3615,etf_anchor,42,cifar100,kaggle_etf_sparse,0.5906001504957092,Capstone Outputs 1
+0.4105999999999999,0.3649999999999999,-0.3649999999999999,etf_anchor,43,cifar100,kaggle_etf_sparse,0.644850199031968,Capstone Output CIFAR100 Seed43 Missing Baselines
+0.0515,0.6759999999999999,-0.6759999999999999,etf_anchor,44,cifar100,kaggle_etf_sparse,0.5585712634012822,Capstone Output CIFAR100 Seed44 Missing Baselines
+0.6477999999999999,0.03325,-0.0328749999999999,lwf_etf,42,cifar100,kaggle_lwf_etf,0.8409137258898832,Capstone Outputs 2
+0.6537000000000001,0.0322499999999999,-0.0322499999999999,lwf_etf,42,cifar100,kaggle_lwf_etf_strong,0.8823226337872799,Capstone Outputs 2
+0.6642,0.03,-0.03,lwf_etf,43,cifar100,kaggle_lwf_etf_strong,0.343420777597144,Capstone Output 3
+0.6737,0.029,-0.027875,lwf_etf,44,cifar100,kaggle_lwf_etf_strong,0.6097290891750367,Capstone Output 3

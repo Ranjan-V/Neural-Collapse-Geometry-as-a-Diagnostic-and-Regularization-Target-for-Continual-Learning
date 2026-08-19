@@ -1,0 +1,58 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+
+# Experiment outputs
+results/checkpoints/
+results/logs/
+results/figures/*.png
+results/figures/*.pdf
+results/tables/*.tex
+results/*.json
+results/*.csv
+*.pt
+*.pth
+*.ckpt
+*.onnx
+
+# Data
+data/raw/
+data/processed/
+datasets/
+
+# LaTeX / render QA
+paper/
+math/
+*.pdf
+*.docx
+*.aux
+*.bbl
+*.blg
+*.brf
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
+render_qa*/
+zip_qa*/
+
+# Archives and large local transfer bundles
+*.zip
+*.tar
+*.tar.gz
+*.7z
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db

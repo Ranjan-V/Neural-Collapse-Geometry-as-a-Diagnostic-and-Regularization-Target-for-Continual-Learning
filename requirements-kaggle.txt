@@ -1,0 +1,6 @@
+# Kaggle already provides PyTorch/Torchvision in GPU notebooks.
+# Install only packages that may be missing or version-sensitive.
+umap-learn>=0.5.3
+pyyaml>=6.0
+tqdm>=4.65.0
+

@@ -1,0 +1,51 @@
+# Full CIFAR-100 ETF diagnostic config for RTX 3050: raw centroid + sparse anchor.
+
+seed: 42
+experiment_name: "geometric_memory_3050_sparse_anchor"
+log_dir: "results/logs"
+checkpoint_dir: "results/checkpoints"
+
+dataset: "cifar100"
+data_root: "data/raw"
+num_tasks: 5
+classes_per_task: 20
+batch_size: 64
+num_workers: 2
+
+architecture: "resnet18"
+feature_dim: 512
+pretrained: false
+
+epochs_per_task: 100
+learning_rate: 0.1
+momentum: 0.9
+weight_decay: 0.0001
+lr_scheduler: "cosine"
+lr_milestones: [60, 80]
+lr_gamma: 0.1
+gradient_clip_max_norm: 1.0
+mixed_precision: true
+freeze_old_classifier: false
+
+alpha: 1.0
+centroid_weight: 1.0
+centroid_loss_mode: "raw"
+lambda_angle: 1.0
+buffer_size: 200
+anchor_samples_per_class: 200
+anchor_batch_size: 64
+anchor_every_n_steps: 4
+etf_warmup_epochs: 0
+freeze_bn_during_anchor: true
+anchor_all_seen_tasks: false
+
+ewc_lambda: 5000.0
+lwf_temperature: 2.0
+lwf_alpha: 1.0
+
+eval_every_n_steps: 50
+topk: [1, 5]
+nc_eval_max_batches: null
+
+deterministic: true
+

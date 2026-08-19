@@ -1,0 +1,6 @@
+config,learning_rate,weight_decay,ewc_lambda,lwf_alpha,lwf_temperature,etf_alpha,lambda_angle,anchor_every_n_steps
+CIFAR-10 full,0.1,0.0001,5000.0,1.0,2.0,1.0,1.0,4
+CIFAR-10 LwF+ETF,0.1,0.0001,5000.0,1.0,2.0,0.25,1.0,4
+CIFAR-100 full,0.1,0.0001,5000.0,1.0,2.0,1.0,0.5,1
+CIFAR-100 ETF sparse,0.1,0.0001,5000.0,1.0,2.0,1.0,1.0,4
+CIFAR-100 LwF+ETF,0.1,0.0001,5000.0,1.0,2.0,0.25,1.0,4

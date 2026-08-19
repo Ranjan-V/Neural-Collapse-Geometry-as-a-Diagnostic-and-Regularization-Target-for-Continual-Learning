@@ -1,0 +1,53 @@
+# Fast end-to-end smoke config. Uses synthetic image tasks, no dataset download.
+
+seed: 42
+experiment_name: "geometric_memory_smoke"
+log_dir: "results/logs"
+checkpoint_dir: "results/checkpoints"
+
+dataset: "synthetic"
+data_root: "data/raw"
+num_tasks: 2
+classes_per_task: 2
+batch_size: 8
+num_workers: 0
+synthetic_image_size: 32
+synthetic_train_samples_per_class: 8
+synthetic_test_samples_per_class: 4
+
+architecture: "resnet18"
+feature_dim: 512
+pretrained: false
+
+epochs_per_task: 1
+learning_rate: 0.01
+momentum: 0.9
+weight_decay: 0.0001
+lr_scheduler: "cosine"
+lr_milestones: [1]
+lr_gamma: 0.1
+gradient_clip_max_norm: 1.0
+mixed_precision: false
+freeze_old_classifier: false
+
+alpha: 0.1
+centroid_weight: 1.0
+centroid_loss_mode: "raw"
+lambda_angle: 0.5
+buffer_size: 4
+anchor_samples_per_class: 4
+anchor_batch_size: 8
+anchor_every_n_steps: 1
+etf_warmup_epochs: 0
+freeze_bn_during_anchor: true
+anchor_all_seen_tasks: false
+
+ewc_lambda: 10.0
+lwf_temperature: 2.0
+lwf_alpha: 1.0
+
+eval_every_n_steps: 2
+topk: [1, 5]
+nc_eval_max_batches: 1
+
+deterministic: true

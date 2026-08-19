@@ -1,0 +1,2 @@
+"""Publication-quality plotting utilities."""
+

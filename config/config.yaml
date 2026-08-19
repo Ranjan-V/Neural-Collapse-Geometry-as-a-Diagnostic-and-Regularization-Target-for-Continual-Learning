@@ -1,0 +1,58 @@
+# Experiment
+seed: 42
+experiment_name: "geometric_memory"
+log_dir: "results/logs"
+checkpoint_dir: "results/checkpoints"
+
+# Data
+dataset: "cifar100"          # cifar100 | tiny_imagenet
+data_root: "data/raw"
+num_tasks: 5                 # 5 tasks x 20 classes for CIFAR-100
+classes_per_task: 20
+batch_size: 128
+num_workers: 4
+
+# Model
+architecture: "resnet18"
+feature_dim: 512             # ResNet-18 penultimate dim
+pretrained: false
+
+# Training
+epochs_per_task: 100
+learning_rate: 0.1
+momentum: 0.9
+weight_decay: 0.0001
+lr_scheduler: "cosine"
+lr_milestones: [60, 80]
+lr_gamma: 0.1
+gradient_clip_max_norm: 1.0
+mixed_precision: true
+freeze_old_classifier: false
+
+# ETF Anchor
+alpha: 1.0
+centroid_weight: 1.0
+centroid_loss_mode: "raw"     # raw | centered | normalized
+lambda_angle: 0.5
+buffer_size: 200
+anchor_samples_per_class: 200
+anchor_batch_size: 128
+anchor_every_n_steps: 1
+etf_warmup_epochs: 0
+freeze_bn_during_anchor: true
+anchor_all_seen_tasks: false
+
+# EWC baseline
+ewc_lambda: 5000.0
+
+# LwF baseline
+lwf_temperature: 2.0
+lwf_alpha: 1.0
+
+# Evaluation
+eval_every_n_steps: 50
+topk: [1, 5]
+nc_eval_max_batches: null
+
+# Reproducibility
+deterministic: true

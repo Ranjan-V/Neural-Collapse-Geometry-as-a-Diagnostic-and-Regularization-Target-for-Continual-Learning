@@ -1,0 +1,31 @@
+dataset,method,seed,training_log_available,rows,source_path
+CIFAR-10,Finetune,42,False,0,
+CIFAR-10,Finetune,43,False,0,
+CIFAR-10,Finetune,44,False,0,
+CIFAR-10,EWC,42,False,0,
+CIFAR-10,EWC,43,False,0,
+CIFAR-10,EWC,44,False,0,
+CIFAR-10,ETF Anchor,42,False,0,
+CIFAR-10,ETF Anchor,43,False,0,
+CIFAR-10,ETF Anchor,44,False,0,
+CIFAR-10,LwF,42,False,0,
+CIFAR-10,LwF,43,False,0,
+CIFAR-10,LwF,44,False,0,
+CIFAR-10,LwF+ETF Strong,42,False,0,
+CIFAR-10,LwF+ETF Strong,43,False,0,
+CIFAR-10,LwF+ETF Strong,44,False,0,
+CIFAR-100,Finetune,42,True,40000,D:\Capstone\Capstone Outputs 1\logs\kaggle_cifar_full\finetune\seed_42\training_log.csv
+CIFAR-100,Finetune,43,False,0,
+CIFAR-100,Finetune,44,False,0,
+CIFAR-100,EWC,42,True,40000,D:\Capstone\Capstone Outputs 1\logs\kaggle_cifar_full\ewc\seed_42\training_log.csv
+CIFAR-100,EWC,43,False,0,
+CIFAR-100,EWC,44,False,0,
+CIFAR-100,ETF Anchor Sparse,42,True,40000,D:\Capstone\Capstone Outputs 1\logs\kaggle_etf_sparse\etf_anchor\seed_42\training_log.csv
+CIFAR-100,ETF Anchor Sparse,43,False,0,
+CIFAR-100,ETF Anchor Sparse,44,False,0,
+CIFAR-100,LwF,42,True,40000,D:\Capstone\Capstone Outputs 2\logs\kaggle_cifar_full\lwf\seed_42\training_log.csv
+CIFAR-100,LwF,43,True,40000,D:\Capstone\Capstone Output 3\logs\kaggle_cifar_full\lwf\seed_43\training_log.csv
+CIFAR-100,LwF,44,True,40000,D:\Capstone\Capstone Output 3\logs\kaggle_cifar_full\lwf\seed_44\training_log.csv
+CIFAR-100,LwF+ETF Strong,42,True,40000,D:\Capstone\Capstone Outputs 2\logs\kaggle_lwf_etf_strong\lwf_etf\seed_42\training_log.csv
+CIFAR-100,LwF+ETF Strong,43,True,40000,D:\Capstone\Capstone Output 3\logs\kaggle_lwf_etf_strong\lwf_etf\seed_43\training_log.csv
+CIFAR-100,LwF+ETF Strong,44,True,40000,D:\Capstone\Capstone Output 3\logs\kaggle_lwf_etf_strong\lwf_etf\seed_44\training_log.csv
