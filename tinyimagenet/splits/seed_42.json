@@ -1,0 +1,8 @@
+{
+  "seed": 42,
+  "status": "recipe_only_not_bound_to_dataset",
+  "algorithm": "sorted original class IDs, numpy.default_rng(seed).permutation",
+  "num_tasks": 10,
+  "classes_per_task": 20,
+  "bound_manifest": "outputs/splits/seed_42.json"
+}

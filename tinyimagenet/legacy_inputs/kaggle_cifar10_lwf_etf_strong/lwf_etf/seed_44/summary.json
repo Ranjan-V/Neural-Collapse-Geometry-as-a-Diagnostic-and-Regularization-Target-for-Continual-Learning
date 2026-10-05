@@ -1,0 +1,43 @@
+{
+  "method": "lwf_etf",
+  "seed": 44,
+  "accuracy_matrix": [
+    [
+      0.9335,
+      NaN,
+      NaN,
+      NaN,
+      NaN
+    ],
+    [
+      0.9355,
+      0.944,
+      NaN,
+      NaN,
+      NaN
+    ],
+    [
+      0.906,
+      0.8875,
+      0.9645,
+      NaN,
+      NaN
+    ],
+    [
+      0.8475,
+      0.862,
+      0.948,
+      0.976,
+      NaN
+    ],
+    [
+      0.8235,
+      0.832,
+      0.9385,
+      0.9665,
+      0.981
+    ]
+  ],
+  "training_log_path": "/kaggle/working/capstone_outputs/logs/kaggle_cifar10_lwf_etf_strong/lwf_etf/seed_44/training_log.csv",
+  "nc_metrics_path": "/kaggle/working/capstone_outputs/logs/kaggle_cifar10_lwf_etf_strong/lwf_etf/seed_44/nc_metrics.csv"
+}

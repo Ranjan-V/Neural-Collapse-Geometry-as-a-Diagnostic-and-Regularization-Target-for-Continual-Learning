@@ -1,0 +1,1 @@
+"""Fixed-validation temporal diagnostics."""

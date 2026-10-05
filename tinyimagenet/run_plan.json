@@ -1,0 +1,74 @@
+[
+  {
+    "run_id": "tinyimagenet_finetune_seed42",
+    "method": "finetune",
+    "seed": 42,
+    "status": "not_started"
+  },
+  {
+    "run_id": "tinyimagenet_finetune_seed43",
+    "method": "finetune",
+    "seed": 43,
+    "status": "not_started"
+  },
+  {
+    "run_id": "tinyimagenet_finetune_seed44",
+    "method": "finetune",
+    "seed": 44,
+    "status": "not_started"
+  },
+  {
+    "run_id": "tinyimagenet_lwf_seed42",
+    "method": "lwf",
+    "seed": 42,
+    "status": "not_started"
+  },
+  {
+    "run_id": "tinyimagenet_lwf_seed43",
+    "method": "lwf",
+    "seed": 43,
+    "status": "not_started"
+  },
+  {
+    "run_id": "tinyimagenet_lwf_seed44",
+    "method": "lwf",
+    "seed": 44,
+    "status": "not_started"
+  },
+  {
+    "run_id": "tinyimagenet_etfs_seed42",
+    "method": "etfs",
+    "seed": 42,
+    "status": "not_started"
+  },
+  {
+    "run_id": "tinyimagenet_etfs_seed43",
+    "method": "etfs",
+    "seed": 43,
+    "status": "not_started"
+  },
+  {
+    "run_id": "tinyimagenet_etfs_seed44",
+    "method": "etfs",
+    "seed": 44,
+    "status": "not_started"
+  },
+  {
+    "run_id": "tinyimagenet_lwf_etf_seed42",
+    "method": "lwf_etf",
+    "seed": 42,
+    "status": "not_started"
+  },
+  {
+    "run_id": "tinyimagenet_lwf_etf_seed43",
+    "method": "lwf_etf",
+    "seed": 43,
+    "status": "not_started"
+  },
+  {
+    "run_id": "tinyimagenet_lwf_etf_seed44",
+    "method": "lwf_etf",
+    "seed": 44,
+    "status": "not_started"
+  }
+]

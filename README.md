@@ -2,6 +2,14 @@
 
 This repository contains the code, experiment configuration, Kaggle execution scripts, tests, and curated non-submission analysis artifacts for the project:
 
+The `tinyimagenet/` directory contains the later Tiny ImageNet extension: the
+frozen protocol, training and resume code, temporal diagnostic analysis, unit
+checks, Kaggle notebook, fixed split definitions, and the small historical
+CIFAR metric inputs needed by the cross-dataset analysis. Run its commands from
+inside `tinyimagenet/`; see [its Kaggle instructions](tinyimagenet/KAGGLE_INSTRUCTIONS.md)
+and [protocol](tinyimagenet/PROTOCOL.md). Runtime datasets, checkpoints, and
+manuscript files are not part of this repository.
+
 **Neural Collapse Geometry as a Diagnostic and Regularization Target for Continual Learning**
 
 The project studies whether neural-collapse (NC) geometry can be used to diagnose catastrophic forgetting in continual learning, and whether ETF-based geometric anchoring can act as a regularization target. The strongest empirical finding is diagnostic: on split CIFAR-100, NC3, NC4, and angular drift provide strong representation-level signals of task-1 forgetting. ETF anchoring is included as a geometry-aware regularization probe, while LwF remains the strongest regularizer in the reported experiments.
@@ -22,6 +30,7 @@ The project studies whether neural-collapse (NC) geometry can be used to diagnos
 ├── training/               # Single-task and continual trainers
 ├── visualization/          # Figure generation utilities
 └── results/analysis/       # Curated analysis tables and selected PNG artifacts
+tinyimagenet/               # Tiny ImageNet extension and temporal analyses
 ```
 
 Large runtime artifacts are intentionally excluded from git, including virtual environments, raw datasets, training logs, model checkpoints, transfer archives, PDFs, Word documents, mathematical notes, and manuscript submission files.

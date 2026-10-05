@@ -18,6 +18,10 @@ results/figures/*.pdf
 results/tables/*.tex
 results/*.json
 results/*.csv
+tinyimagenet/outputs/
+tinyimagenet/analysis/
+tinyimagenet/paper_outputs/
+tinyimagenet/runtime_data/
 *.pt
 *.pth
 *.ckpt

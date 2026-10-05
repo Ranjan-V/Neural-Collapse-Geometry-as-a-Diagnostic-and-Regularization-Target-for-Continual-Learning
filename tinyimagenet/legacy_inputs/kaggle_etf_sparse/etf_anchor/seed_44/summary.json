@@ -1,0 +1,43 @@
+{
+  "method": "etf_anchor",
+  "seed": 44,
+  "accuracy_matrix": [
+    [
+      0.696,
+      NaN,
+      NaN,
+      NaN,
+      NaN
+    ],
+    [
+      0.632,
+      0.696,
+      NaN,
+      NaN,
+      NaN
+    ],
+    [
+      0.55,
+      0.475,
+      0.7415,
+      NaN,
+      NaN
+    ],
+    [
+      0.4335,
+      0.382,
+      0.405,
+      0.76,
+      NaN
+    ],
+    [
+      0.0505,
+      0.047,
+      0.058,
+      0.034,
+      0.068
+    ]
+  ],
+  "training_log_path": "/kaggle/working/capstone_outputs/logs/kaggle_etf_sparse/etf_anchor/seed_44/training_log.csv",
+  "nc_metrics_path": "/kaggle/working/capstone_outputs/logs/kaggle_etf_sparse/etf_anchor/seed_44/nc_metrics.csv"
+}

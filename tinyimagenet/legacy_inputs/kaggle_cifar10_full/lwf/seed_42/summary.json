@@ -1,0 +1,43 @@
+{
+  "method": "lwf",
+  "seed": 42,
+  "accuracy_matrix": [
+    [
+      0.94,
+      NaN,
+      NaN,
+      NaN,
+      NaN
+    ],
+    [
+      0.936,
+      0.971,
+      NaN,
+      NaN,
+      NaN
+    ],
+    [
+      0.932,
+      0.9695,
+      0.944,
+      NaN,
+      NaN
+    ],
+    [
+      0.9295,
+      0.9675,
+      0.9415,
+      0.9805,
+      NaN
+    ],
+    [
+      0.9295,
+      0.969,
+      0.9395,
+      0.983,
+      0.969
+    ]
+  ],
+  "training_log_path": "/kaggle/working/capstone_outputs/logs/kaggle_cifar10_full/lwf/seed_42/training_log.csv",
+  "nc_metrics_path": "/kaggle/working/capstone_outputs/logs/kaggle_cifar10_full/lwf/seed_42/nc_metrics.csv"
+}

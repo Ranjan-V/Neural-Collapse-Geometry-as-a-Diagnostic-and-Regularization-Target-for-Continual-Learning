@@ -1,0 +1,43 @@
+{
+  "method": "finetune",
+  "seed": 43,
+  "accuracy_matrix": [
+    [
+      0.974,
+      NaN,
+      NaN,
+      NaN,
+      NaN
+    ],
+    [
+      0.596,
+      0.958,
+      NaN,
+      NaN,
+      NaN
+    ],
+    [
+      0.5305,
+      0.7115,
+      0.9835,
+      NaN,
+      NaN
+    ],
+    [
+      0.5665,
+      0.38,
+      0.5615,
+      0.9205,
+      NaN
+    ],
+    [
+      0.519,
+      0.515,
+      0.158,
+      0.604,
+      0.976
+    ]
+  ],
+  "training_log_path": "/kaggle/working/capstone_outputs/logs/kaggle_cifar10_full/finetune/seed_43/training_log.csv",
+  "nc_metrics_path": "/kaggle/working/capstone_outputs/logs/kaggle_cifar10_full/finetune/seed_43/nc_metrics.csv"
+}

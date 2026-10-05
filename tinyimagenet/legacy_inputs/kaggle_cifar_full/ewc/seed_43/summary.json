@@ -1,0 +1,43 @@
+{
+  "method": "ewc",
+  "seed": 43,
+  "accuracy_matrix": [
+    [
+      0.7055,
+      NaN,
+      NaN,
+      NaN,
+      NaN
+    ],
+    [
+      0.548,
+      0.705,
+      NaN,
+      NaN,
+      NaN
+    ],
+    [
+      0.493,
+      0.5375,
+      0.7115,
+      NaN,
+      NaN
+    ],
+    [
+      0.391,
+      0.4315,
+      0.497,
+      0.6735,
+      NaN
+    ],
+    [
+      0.3695,
+      0.4165,
+      0.483,
+      0.4845,
+      0.677
+    ]
+  ],
+  "training_log_path": "/kaggle/working/capstone_outputs/logs/kaggle_cifar_full/ewc/seed_43/training_log.csv",
+  "nc_metrics_path": "/kaggle/working/capstone_outputs/logs/kaggle_cifar_full/ewc/seed_43/nc_metrics.csv"
+}

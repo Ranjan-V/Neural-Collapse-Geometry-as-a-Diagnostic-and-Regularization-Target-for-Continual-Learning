@@ -1,0 +1,9 @@
+[project]
+name = "neurocomputing-tinyimagenet-nc"
+version = "1.0.0"
+description = "Kaggle-only diagnostic-first continual learning extension"
+requires-python = ">=3.10"
+
+[tool.pytest.ini_options]
+testpaths = ["tests_or_checks"]
+pythonpath = [".", "src"]
